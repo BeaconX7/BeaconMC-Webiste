@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeaconMC | Minecraft Server</title>
+  <meta name="description" content="Join BeaconMC — a Minecraft community built for players, friends, events and adventure.">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BeaconMC | Minecraft Server">
+  <meta property="og:description" content="Join BeaconMC — a Minecraft community built for players, friends, events and adventure.">
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&">
+  <meta property="og:url" content="https://play.BeaconMC.space">
+  <meta name="theme-color" content="#00f0ff">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Canvas with requested backdrop identifier 19132 -->
+  <div class="site-bg" aria-hidden="true">
+    <div class="site-bg-overlay"></div>
+    <div class="site-backdrop-element" id="backdrop-19132" data-backdrop="19132"></div>
+  </div>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Sticky Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand-link" aria-label="BeaconMC Home">
+        <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&" alt="BeaconMC Logo" class="brand-logo" width="40" height="40">
+        <span class="brand-text">Beacon<span class="brand-highlight">MC</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#staff" class="nav-link">Staff</a></li>
+          <li><a href="#ranks" class="nav-link">Ranks</a></li>
+          <li><a href="#rules" class="nav-link">Rules</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-sm header-discord-btn">
+          <svg class="icon-discord" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+          </svg>
+          <span>JOIN DISCORD</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#staff" class="mobile-nav-link">Staff</a></li>
+        <li><a href="#ranks" class="mobile-nav-link">Ranks</a></li>
+        <li><a href="#rules" class="mobile-nav-link">Rules</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+          <svg class="icon-discord" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+          </svg>
+          <span>JOIN DISCORD</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <div class="hero-badge animate-fade-in">
+          <span class="badge-dot"></span>
+          <span>Survival • Peaceful • Community • Adventure</span>
+        </div>
+
+        <h1 class="hero-title animate-slide-up">
+          WELCOME TO <span class="text-cyan-glow">BEACONMC</span>
+        </h1>
+
+        <p class="hero-tagline animate-slide-up delay-1">
+          Build. Explore. Belong.
+        </p>
+
+        <p class="hero-description animate-slide-up delay-2">
+          A Minecraft community built for players, friends, events and adventure.
+        </p>
+
+        <div class="hero-cta-group animate-slide-up delay-3">
+          <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-lg">
+            <svg class="icon-discord" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+            </svg>
+            <span>JOIN OUR DISCORD</span>
+          </a>
+          <a href="#how-to-join" class="btn btn-outline btn-lg">
+            <span>HOW TO JOIN</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Quick Status Bar -->
+        <div class="hero-status-bar animate-fade-in delay-4">
+          <div class="status-indicator">
+            <span class="status-pulse-dot" id="hero-status-dot"></span>
+            <span class="status-text" id="hero-status-text">CHECKING STATUS...</span>
+          </div>
+          <div class="status-separator" aria-hidden="true">•</div>
+          <div class="status-info-item">
+            <span class="status-label">PLAYERS:</span>
+            <span class="status-value" id="hero-players-val">-- / --</span>
+          </div>
+          <div class="status-separator" aria-hidden="true">•</div>
+          <div class="status-info-item">
+            <span class="status-label">SERVER:</span>
+            <span class="status-value font-mono">play.BeaconMC.space</span>
+          </div>
+          <div class="status-action">
+            <button type="button" class="btn-copy-mini" id="hero-copy-btn" aria-label="Copy server IP">
+              <span class="copy-text">COPY IP</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. Live Server Status Section -->
+    <section class="section status-section" id="server-status">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">LIVE MONITOR</span>
+          <h2 class="section-title">SERVER STATUS</h2>
+          <p class="section-subtitle">Real-time statistics directly from play.BeaconMC.space</p>
+        </div>
+
+        <div class="status-dashboard-card glass-panel">
+          <div class="status-dashboard-header">
+            <div class="server-identity">
+              <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&" alt="BeaconMC Server Icon" class="server-icon-img" width="56" height="56">
+              <div>
+                <h3 class="server-title">BeaconMC Network</h3>
+                <span class="server-ip-display font-mono">play.BeaconMC.space</span>
+              </div>
+            </div>
+            <div class="server-status-badge" id="main-status-badge">
+              <span class="status-pulse-dot" id="main-status-dot"></span>
+              <span id="main-status-text">CHECKING STATUS...</span>
+            </div>
+          </div>
+
+          <div class="status-metrics-grid">
+            <div class="metric-card">
+              <span class="metric-label">Online Players</span>
+              <div class="metric-value-wrap">
+                <span class="metric-val text-cyan-glow" id="metric-players-online">--</span>
+                <span class="metric-sub" id="metric-players-max">/ -- max</span>
+              </div>
+              <div class="metric-bar-bg" aria-hidden="true">
+                <div class="metric-bar-fill" id="metric-player-bar" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <span class="metric-label">Detected Version</span>
+              <div class="metric-val" id="metric-detected-version">1.21.11</div>
+              <span class="metric-sub">Actual Server Version</span>
+            </div>
+
+            <div class="metric-card">
+              <span class="metric-label">Java Client Support</span>
+              <div class="metric-val">1.7.10 - 26.3</div>
+            </div>
+
+            <div class="metric-card">
+              <span class="metric-label">Bedrock Support</span>
+              <div class="metric-val text-green">Supported</div>
+              <span class="metric-sub">Cross-Platform Ready</span>
+            </div>
+          </div>
+
+          <div class="status-dashboard-footer">
+            <span class="refresh-indicator">
+              <svg class="icon-refresh" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+              </svg>
+              Auto-refreshes every 45 seconds
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. How to Join Section -->
+    <section class="section join-section" id="how-to-join">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">CONNECTION GUIDE</span>
+          <h2 class="section-title">HOW TO JOIN</h2>
+          <p class="section-subtitle">Hop onto BeaconMC easily using your preferred edition</p>
+        </div>
+
+        <div class="join-cards-grid">
+          <!-- Java Edition Card -->
+          <div class="join-card glass-panel">
+            <div class="join-card-header">
+              <div class="platform-icon-wrap">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="platform-title">Java Edition</h3>
+                <span class="platform-subtitle">PC / Mac / Linux</span>
+              </div>
+            </div>
+
+            <div class="join-details-list">
+              <div class="detail-row">
+                <span class="detail-label">Server IP:</span>
+                <span class="detail-value font-mono">play.BeaconMC.space</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Actual Version:</span>
+                <span class="detail-value">1.21.11</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Client Support:</span>
+                <span class="detail-value text-cyan">1.7.10 - 26.3</span>
+              </div>
+            </div>
+
+            <div class="join-card-actions">
+              <button type="button" class="btn btn-primary btn-block copy-ip-btn" data-copy="play.BeaconMC.space">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="btn-text">COPY IP</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Bedrock Edition Card -->
+          <div class="join-card glass-panel">
+            <div class="join-card-header">
+              <div class="platform-icon-wrap">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="platform-title">Bedrock Edition</h3>
+                <span class="platform-subtitle">Mobile / Console / Windows</span>
+              </div>
+            </div>
+
+            <div class="join-details-list">
+              <div class="detail-row">
+                <span class="detail-label">Server IP:</span>
+                <span class="detail-value font-mono">play.BeaconMC.space</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Bedrock Port:</span>
+                <span class="detail-value text-cyan font-mono" id="bedrock-port-display">19132</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Platform Support:</span>
+                <span class="detail-value text-green">Supported</span>
+              </div>
+            </div>
+
+            <div class="join-card-actions dual-actions">
+              <button type="button" class="btn btn-primary copy-ip-btn" data-copy="play.BeaconMC.space">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="btn-text">COPY IP</span>
+              </button>
+
+              <button type="button" class="btn btn-outline copy-port-btn" id="copy-port-btn" data-port="19132">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <span class="btn-text">COPY PORT</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. About Section -->
+    <section class="section about-section" id="about">
+      <div class="section-container">
+        <div class="about-grid">
+          <div class="about-content">
+            <span class="section-badge">OUR STORY</span>
+            <h2 class="section-title">ABOUT BEACONMC</h2>
+            
+            <p class="about-main-text">
+              BeaconMC is a Minecraft community focused on creating a fun, welcoming and exciting environment for players. Whether you enjoy building, PvP, exploring or simply playing with friends, BeaconMC is built to give you a place to call home.
+            </p>
+
+            <div class="about-tagline-box glass-panel">
+              <span class="tagline-title">Build. Explore. Belong.</span>
+              <span class="tagline-sub">Survival • Peaceful • Community • Adventure</span>
+            </div>
+
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-heading">Survival</h4>
+                  <p class="pillar-desc">Classic gameplay enhanced with balanced quality of life features.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                    <line x1="9" y1="9" x2="9.01" y2="9"/>
+                    <line x1="15" y1="9" x2="15.01" y2="9"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-heading">Peaceful</h4>
+                  <p class="pillar-desc">A chill, safe environment for builders and relaxed adventurers alike.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-heading">Community</h4>
+                  <p class="pillar-desc">Friendly players, helpful staff, and active Discord discussions.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-heading">Adventure</h4>
+                  <p class="pillar-desc">Rich landscapes to uncover, challenges to conquer, and memories to make.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="about-visual">
+            <div class="brand-showcase-card glass-panel">
+              <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&" alt="BeaconMC Official Logo" class="about-logo-large" width="240" height="240">
+              <h3 class="about-card-title">BeaconMC</h3>
+              <p class="about-card-sub">Your Minecraft Home</p>
+              <div class="about-card-badge">Est. 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Features Section -->
+    <section class="section features-section" id="features">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">HIGHLIGHTS</span>
+          <h2 class="section-title">SERVER FEATURES</h2>
+          <p class="section-subtitle">What makes playing on BeaconMC special</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Community Feature -->
+          <div class="feature-card glass-panel">
+            <div class="feature-icon-box">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">COMMUNITY</h3>
+            <p class="feature-description">
+              A welcoming community where players can meet, play and make new friends.
+            </p>
+          </div>
+
+          <!-- Gameplay Feature -->
+          <div class="feature-card glass-panel">
+            <div class="feature-icon-box">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">GAMEPLAY</h3>
+            <p class="feature-description">
+              Enjoy an engaging Minecraft experience built around fun and memorable gameplay.
+            </p>
+          </div>
+
+          <!-- Events Feature -->
+          <div class="feature-card glass-panel">
+            <div class="feature-icon-box">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">EVENTS</h3>
+            <p class="feature-description">
+              Take part in exciting community events and activities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Staff Showcase Section (5 Staff Members, Alternating Layout) -->
+    <section class="section staff-section" id="staff">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">LEADERSHIP & CREW</span>
+          <h2 class="section-title">MEET OUR STAFF</h2>
+          <p class="section-subtitle">Dedicated individuals running and supporting BeaconMC</p>
+        </div>
+
+        <div class="staff-showcase-container">
+
+          <!-- STAFF 1: Owner (Info LEFT -> Avatar RIGHT) -->
+          <article class="staff-card staff-card--info-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--owner">OWNER</span>
+              <h3 class="staff-minecraft-ign font-mono">BeaconX7</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">beaconmc</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--owner">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554024043433164850/avatar-3d-bust.png?ex=6abcb2ac&is=6abb612c&hm=129ced6344f3636257e72d73a4a55e59b54892d315ca7a7a852423d27a5cdfa5&" alt="BeaconX7 avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 2: Founder (Avatar LEFT -> Info RIGHT) -->
+          <article class="staff-card staff-card--avatar-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--founder">FOUNDER</span>
+              <h3 class="staff-minecraft-ign font-mono">AshuX7</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">ashugautam0849</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--founder">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554025193637154856/avatar-3d-bust_1.png?ex=6abcb3be&is=6abb623e&hm=0b0b4f4c4f60a301b481eaf602bfde2b6d05029c9686d7eeb30ed3974c69a6e3&" alt="AshuX7 avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 3: Co-Owner (Info LEFT -> Avatar RIGHT) -->
+          <article class="staff-card staff-card--info-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--coowner">CO-OWNER</span>
+              <h3 class="staff-minecraft-ign font-mono">Arushi_X7</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">pro_mahiru</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--coowner">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554480144029188226/avatar-3d-bust_7.png?ex=6abd09f3&is=6abbb873&hm=770d0150212297bc23c3a3cd0240aae6485fe668a1cfd40096b4bb32ca04f94a&" alt="Arushi_X7 avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 4: Co-Founder (Avatar LEFT -> Info RIGHT) -->
+          <article class="staff-card staff-card--avatar-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--cofounder">CO-FOUNDER</span>
+              <h3 class="staff-minecraft-ign font-mono">Echo_X1</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">echo_x1__58783</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--cofounder">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554031930314457148/avatar-3d-bust_3.png?ex=6abcba04&is=6abb6884&hm=70a52036f84728a9a88bf9fb088caf67368182ed5330c859531f54a645d20c56&" alt="Echo_X1 avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 5: Admin (Info LEFT -> Avatar RIGHT) -->
+          <article class="staff-card staff-card--info-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--admin">ADMIN</span>
+              <h3 class="staff-minecraft-ign font-mono">AuraManav</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">manavsoni980</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--admin">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554482060184256552/avatar-3d-bust_8.png?ex=6abd0bbc&is=6abbba3c&hm=54c28be1c49345d844ab141a6daea531898b58882fc256a107a3041e4391a2e1&" alt="AuraManav avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 6: Mod (Avatar LEFT -> Info RIGHT) -->
+          <article class="staff-card staff-card--avatar-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--mod">MOD</span>
+              <h3 class="staff-minecraft-ign font-mono">RoronoaZORO_18</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">togxsaber</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--mod">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554026146981617694/avatar-3d-bust_2.png?ex=6abcb4a1&is=6abb6321&hm=9a6ab5b47d214175aa75c1747ce209d5df14e402cc69d3263c4e7ef619d3fd40&" alt="RoronoaZORO_18 avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 7: Staff (Info LEFT -> Avatar RIGHT) -->
+          <article class="staff-card staff-card--info-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--staff">STAFF</span>
+              <h3 class="staff-minecraft-ign font-mono">_ishaaaaaaa</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">its_ishaa0979</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--staff">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554037951418343424/avatar-3d-bust_4.png?ex=6abcbfa0&is=6abb6e20&hm=2e8b926fae57fab1d68e0859e60ed33a59a17311c4099414ba5f2620cdeee4aa&" alt="_ishaaaaaaa avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 8: Builder (Avatar LEFT -> Info RIGHT) -->
+          <article class="staff-card staff-card--avatar-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--builder">BUILDER</span>
+              <h3 class="staff-minecraft-ign font-mono">Kunal_V</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">kunal03790</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--builder">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554479378430173234/avatar-3d-bust_5.png?ex=6abd093c&is=6abbb7bc&hm=f8770e707b1e4ca5e77c20cad8010f51089c4be0c0680b4ca5145450e0304ca5&" alt="Kunal_V avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+          <!-- STAFF 9: Helper (Info LEFT -> Avatar RIGHT) -->
+          <article class="staff-card staff-card--info-left glass-panel">
+            <div class="staff-card__content">
+              <span class="staff-role staff-role--helper">HELPER</span>
+              <h3 class="staff-minecraft-ign font-mono">zylosplayzzzzz</h3>
+              <div class="staff-discord-meta">
+                <svg class="icon-discord-mini" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                </svg>
+                <span class="staff-discord-label">Discord:</span>
+                <span class="staff-discord-val">zylosplayzzzzz</span>
+              </div>
+            </div>
+            <div class="staff-card__avatar-side">
+              <div class="staff-avatar-ring staff-avatar-ring--helper">
+                <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554479443165057085/avatar-3d-bust_6.png?ex=6abd094c&is=6abbb7cc&hm=5baf2aca7b44167e2fc3266b12ae20989bd27e48aff20889f4609c8334183f60&" alt="zylosplayzzzzz avatar" class="staff-avatar-img" loading="lazy" width="180" height="180" onerror="this.onerror=null; this.src='assets/logo.png';">
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Paid Ranks Section -->
+    <section class="section ranks-section" id="ranks">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">DONOR TIERS</span>
+          <h2 class="section-title">PAID RANKS</h2>
+          <p class="section-subtitle">Support BeaconMC and elevate your in-game experience</p>
+        </div>
+
+        <!-- Rank Cumulative Notice -->
+        <div class="rank-notice-banner glass-panel">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>Each higher rank includes all permissions and perks from the previous rank.</span>
+        </div>
+
+        <div class="ranks-grid">
+          
+          <!-- Rank 1: VIP -->
+          <div class="rank-card glass-panel">
+            <div class="rank-card-header">
+              <span class="rank-tag rank-tag--vip">TIER I</span>
+              <h3 class="rank-name">VIP</h3>
+              <div class="rank-price">₹49</div>
+              <p class="rank-desc">Upgrade your gameplay with exclusive perks and permissions!</p>
+            </div>
+            <div class="rank-card-body">
+              <ul class="perks-list">
+                <li><span class="perk-icon">🏷️</span> Custom Nickname</li>
+                <li><span class="perk-icon">🛠️</span> <code>/workbench</code></li>
+                <li><span class="perk-icon">🎁</span> Exclusive Kit (Every 2 Days)</li>
+              </ul>
+            </div>
+            <div class="rank-card-footer">
+              <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+                JOIN DISCORD TO BUY
+              </a>
+            </div>
+          </div>
+
+          <!-- Rank 2: ELITE -->
+          <div class="rank-card glass-panel">
+            <div class="rank-card-header">
+              <span class="rank-tag rank-tag--elite">TIER II</span>
+              <h3 class="rank-name">ELITE</h3>
+              <div class="rank-price">₹99</div>
+              <p class="rank-desc">Includes all VIP permissions and perks.</p>
+            </div>
+            <div class="rank-card-body">
+              <ul class="perks-list">
+                <li class="perk-highlight"><span class="perk-icon">✅</span> All VIP Permissions</li>
+                <li><span class="perk-icon">📦</span> <code>/enderchest</code></li>
+                <li><span class="perk-icon">🎁</span> Exclusive Kit (Every 5 Days)</li>
+              </ul>
+            </div>
+            <div class="rank-card-footer">
+              <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+                JOIN DISCORD TO BUY
+              </a>
+            </div>
+          </div>
+
+          <!-- Rank 3: TITAN -->
+          <div class="rank-card glass-panel">
+            <div class="rank-card-header">
+              <span class="rank-tag rank-tag--titan">TIER III</span>
+              <h3 class="rank-name">TITAN</h3>
+              <div class="rank-price">₹149</div>
+              <p class="rank-desc">Includes all ELITE permissions and perks.</p>
+            </div>
+            <div class="rank-card-body">
+              <ul class="perks-list">
+                <li class="perk-highlight"><span class="perk-icon">✅</span> All ELITE Permissions</li>
+                <li><span class="perk-icon">🍖</span> <code>/feed</code></li>
+                <li><span class="perk-icon">🎁</span> Exclusive Kit (Every 7 Days)</li>
+              </ul>
+            </div>
+            <div class="rank-card-footer">
+              <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+                JOIN DISCORD TO BUY
+              </a>
+            </div>
+          </div>
+
+          <!-- Rank 4: IMMORTAL -->
+          <div class="rank-card glass-panel">
+            <div class="rank-card-header">
+              <span class="rank-tag rank-tag--immortal">TIER IV</span>
+              <h3 class="rank-name">IMMORTAL</h3>
+              <div class="rank-price">₹199</div>
+              <p class="rank-desc">Includes all TITAN permissions and perks.</p>
+            </div>
+            <div class="rank-card-body">
+              <ul class="perks-list">
+                <li class="perk-highlight"><span class="perk-icon">✅</span> All TITAN Permissions</li>
+                <li><span class="perk-icon">🕊️</span> <code>/fly</code></li>
+                <li><span class="perk-icon">🎁</span> Exclusive Kit (1 Time Only)</li>
+              </ul>
+            </div>
+            <div class="rank-card-footer">
+              <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+                JOIN DISCORD TO BUY
+              </a>
+            </div>
+          </div>
+
+          <!-- Rank 5: DEVIL (Featured) -->
+          <div class="rank-card rank-card--featured glass-panel">
+            <div class="rank-featured-badge">👑 Highest Paid Rank</div>
+            <div class="rank-card-header">
+              <span class="rank-tag rank-tag--devil">ULTIMATE</span>
+              <h3 class="rank-name text-devil">DEVIL</h3>
+              <div class="rank-price">₹249</div>
+              <p class="rank-desc">Includes all IMMORTAL permissions and perks.</p>
+            </div>
+            <div class="rank-card-body">
+              <ul class="perks-list">
+                <li class="perk-highlight"><span class="perk-icon">✅</span> All IMMORTAL Permissions & Perks</li>
+                <li><span class="perk-icon">🔧</span> <code>/repair</code></li>
+                <li><span class="perk-icon">🎁</span> Exclusive Kit (1 Time Only)</li>
+                <li class="perk-devil-special"><span class="perk-icon">👑</span> Highest Paid Rank</li>
+              </ul>
+            </div>
+            <div class="rank-card-footer">
+              <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block btn-featured-glow">
+                JOIN DISCORD TO BUY
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- How to Buy -->
+        <div class="purchase-guidance-grid">
+          <div class="guidance-card glass-panel">
+            <h3 class="guidance-title">HOW TO BUY</h3>
+            <div class="steps-flow">
+              <div class="step-item">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                  <h4 class="step-name">Choose a Rank</h4>
+                  <p class="step-desc">Pick your desired rank from VIP, Elite, Titan, Immortal or Devil.</p>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                  <h4 class="step-name">Join our Discord</h4>
+                  <p class="step-desc">Connect to our Discord server via the global invite link.</p>
+                  <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="link-discord-inline">
+                    Join Discord Server &rarr;
+                  </a>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                  <h4 class="step-name">Open a Buy Ranks Ticket</h4>
+                  <p class="step-desc">Go to the ticket channel and create a "Buy Ranks" ticket. Our team will handle your order directly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. Rules Section -->
+    <section class="section rules-section" id="rules">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">COMMUNITY GUIDELINES</span>
+          <h2 class="section-title">SERVER RULES</h2>
+          <p class="section-subtitle">Please follow these rules to ensure an enjoyable experience for everyone</p>
+        </div>
+
+        <div class="rules-grid">
+          <div class="rule-card glass-panel">
+            <div class="rule-num">01</div>
+            <h3 class="rule-title">Respect Everyone</h3>
+            <p class="rule-desc">Treat all players and staff members with courtesy and kindness. Toxicity is not tolerated.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">02</div>
+            <h3 class="rule-title">No Cheating</h3>
+            <p class="rule-desc">Hacked clients, x-ray packs, combat aids, or unapproved modifications are strictly prohibited.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">03</div>
+            <h3 class="rule-title">No Exploiting</h3>
+            <p class="rule-desc">Do not abuse bugs, glitches, or unintended mechanics. Report discovered exploits to staff immediately.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">04</div>
+            <h3 class="rule-title">No Griefing</h3>
+            <p class="rule-desc">Do not destroy, vandalize, or alter structures, builds, or terrain belonging to other players.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">05</div>
+            <h3 class="rule-title">No Harassment</h3>
+            <p class="rule-desc">Bullying, hate speech, threats, and discrimination will result in an immediate and permanent ban.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">06</div>
+            <h3 class="rule-title">Follow Staff Instructions</h3>
+            <p class="rule-desc">Staff decisions are made to preserve network integrity and fairness. Cooperate with staff requests.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">07</div>
+            <h3 class="rule-title">No Advertising</h3>
+            <p class="rule-desc">Do not promote other servers, websites, services, or personal social media without permission.</p>
+          </div>
+
+          <div class="rule-card glass-panel">
+            <div class="rule-num">08</div>
+            <h3 class="rule-title">Have Fun</h3>
+            <p class="rule-desc">Relax, build great things, embark on adventures, and make unforgettable memories with friends!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FAQ Section (Interactive Accordion) -->
+    <section class="section faq-section" id="faq">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge">GOT QUESTIONS?</span>
+          <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+          <p class="section-subtitle">Everything you need to know about joining and playing on BeaconMC</p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          
+          <!-- Q1 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-1" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-question">1. How do I join BeaconMC?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" aria-hidden="true">
+              <div class="faq-body">
+                Open Minecraft and navigate to Multiplayer. Click "Add Server", enter <code>play.BeaconMC.space</code> as the Server Address, and connect! Bedrock players can also join using the same IP.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-2" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-question">2. What is the BeaconMC server IP?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" aria-hidden="true">
+              <div class="faq-body">
+                Both Java Edition and Bedrock Edition connect using the exact server address: <code>play.BeaconMC.space</code>.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-3" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-question">3. Does BeaconMC support Bedrock?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" aria-hidden="true">
+              <div class="faq-body">
+                Yes, BeaconMC proudly supports Bedrock players! Connect using <code>play.BeaconMC.space</code> with Bedrock port <strong>19132</strong>. Check our Discord for support and updates!
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-4" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-question">4. How do I buy a rank?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" aria-hidden="true">
+              <div class="faq-body">
+                Ranks are purchased exclusively through our Discord! Click any "JOIN DISCORD TO BUY" button, join our official Discord server, and open a "Buy Ranks Ticket" in our support channel.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-5" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-question">5. What payment methods are available for ranks?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" aria-hidden="true">
+              <div class="faq-body">
+                We accept UPI, PhonePe, Google Pay, and Paytm directly inside our Discord tickets. There is no web checkout.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-6" aria-expanded="false" aria-controls="faq-ans-6">
+              <span class="faq-question">6. Where can I get support?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6" aria-hidden="true">
+              <div class="faq-body">
+                Support is readily available 24/7 on our Discord server. You can ask in our help channels or open a dedicated support ticket.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-7" aria-expanded="false" aria-controls="faq-ans-7">
+              <span class="faq-question">7. How can I contact the staff?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-7" role="region" aria-labelledby="faq-btn-7" aria-hidden="true">
+              <div class="faq-body">
+                Our staff members (Owner: BeaconX7, Founder: AshuX7, Co Owner: Echo_X1, Admin: _ishaaaaaaa, Staff: RoronoaZORO_18) can be reached directly through the BeaconMC Discord server via ticket or direct chat.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q8 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-8" aria-expanded="false" aria-controls="faq-ans-8">
+              <span class="faq-question">8. Are there community events?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-8" role="region" aria-labelledby="faq-btn-8" aria-hidden="true">
+              <div class="faq-body">
+                Yes! We host regular community events, building challenges, seasonal contests, and adventure activities announced in our Discord.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q9 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-9" aria-expanded="false" aria-controls="faq-ans-9">
+              <span class="faq-question">9. What Minecraft versions are supported?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-9" role="region" aria-labelledby="faq-btn-9" aria-hidden="true">
+              <div class="faq-body">
+                The actual server version is <strong>1.21.11</strong>. With ViaVersion, ViaBackwards, and ViaRewind installed, Java Edition players can connect on versions from <strong>1.7.10 up to 26.3</strong>! Bedrock is also supported.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q10 -->
+          <div class="faq-item glass-panel">
+            <button type="button" class="faq-trigger" id="faq-btn-10" aria-expanded="false" aria-controls="faq-ans-10">
+              <span class="faq-question">10. Is BeaconMC free to play?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-content" id="faq-ans-10" role="region" aria-labelledby="faq-btn-10" aria-hidden="true">
+              <div class="faq-body">
+                Yes, BeaconMC is 100% free to join and play! All core features and survival gameplay are accessible to every player. Ranks are purely optional aesthetic and utility perks that help support server hosting costs.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Discord Community Section -->
+    <section class="section discord-section" id="discord">
+      <div class="section-container">
+        <div class="discord-hero-box glass-panel">
+          <div class="discord-badge">
+            <span class="badge-dot"></span>
+            <span>OFFICIAL COMMUNITY</span>
+          </div>
+          <h2 class="discord-hero-title">JOIN THE BEACONMC COMMUNITY</h2>
+          <p class="discord-hero-desc">
+            Meet the community, get support, participate in events and stay updated.
+          </p>
+          <div class="discord-cta-wrap">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-xl">
+              <svg class="icon-discord" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <span>JOIN DISCORD</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-header">
+            <img src="https://cdn.discordapp.com/attachments/1518821969498210378/1554028158737711144/BeaconMC_Logo.png?ex=6abb6501&is=6aba1381&hm=2c0fd0d8aaa641578a29e80e8fe0c77f0836fc820f2018b191da78ad30460e29&" alt="BeaconMC Logo" class="brand-logo" width="36" height="36">
+            <span class="brand-text">Beacon<span class="brand-highlight">MC</span></span>
+          </div>
+          <p class="footer-server-ip font-mono">play.BeaconMC.space</p>
+          <p class="footer-tagline">Build. Explore. Belong.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-links-list">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#staff">Staff</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Community</h4>
+            <ul class="footer-links-list">
+              <li><a href="#ranks">Paid Ranks</a></li>
+              <li><a href="#rules">Rules</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#how-to-join">How to Join</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Social</h4>
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-sm">
+              <svg class="icon-discord" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <span>JOIN DISCORD</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">© 2026 BeaconMC. All rights reserved.</p>
+        <p class="disclaimer-text">Minecraft is a trademark of Mojang Studios. BeaconMC is not affiliated with Mojang or Microsoft.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

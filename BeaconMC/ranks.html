@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranks | BeaconMC Official Minecraft Network</title>
+  <meta name="description" content="Explore VIP, Elite, Titan, Immortal, and Devil rank tiers on BeaconMC. Upgrade your gameplay with exclusive perks and permissions.">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ranks | BeaconMC Official Minecraft Network">
+  <meta property="og:description" content="Explore VIP, Elite, Titan, Immortal, and Devil rank tiers on BeaconMC. Support the server and enjoy exclusive perks.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:url" content="https://play.BeaconMC.space/ranks.html">
+  <meta name="theme-color" content="#00f0ff">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Canvas -->
+  <div class="site-bg" aria-hidden="true">
+    <div class="site-backdrop-element" id="backdrop-19132" data-backdrop="19132"></div>
+  </div>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Sticky Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-link" aria-label="BeaconMC Home">
+        <img src="assets/logo.png" alt="BeaconMC Logo" class="brand-logo" width="42" height="42">
+        <span class="brand-text">Beacon<span class="brand-highlight">MC</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="features.html" class="nav-link">Features</a></li>
+          <li><a href="staff.html" class="nav-link">Staff</a></li>
+          <li><a href="ranks.html" class="nav-link active">Ranks</a></li>
+          <li><a href="rules.html" class="nav-link">Rules</a></li>
+          <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-sm header-discord-btn">
+          <svg class="icon-discord" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+          </svg>
+          <span>JOIN DISCORD</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About</a></li>
+        <li><a href="features.html" class="mobile-nav-link">Features</a></li>
+        <li><a href="staff.html" class="mobile-nav-link">Staff</a></li>
+        <li><a href="ranks.html" class="mobile-nav-link active">Ranks</a></li>
+        <li><a href="rules.html" class="mobile-nav-link">Rules</a></li>
+        <li><a href="faq.html" class="mobile-nav-link">FAQ</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+          <svg class="icon-discord" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+          </svg>
+          <span>JOIN DISCORD</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content" class="page-wrapper">
+
+    <!-- Dedicated Page Hero -->
+    <section class="page-hero">
+      <div class="page-hero-container">
+        <nav class="page-breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="page-breadcrumb-sep">/</span>
+          <span class="page-breadcrumb-current">Ranks</span>
+        </nav>
+        <div class="page-hero-badge">
+          <span class="badge-dot"></span>
+          <span>DONOR TIERS</span>
+        </div>
+        <h1 class="page-hero-title">BEACONMC <span class="text-cyan-glow">RANKS</span></h1>
+        <p class="page-hero-subtitle">
+          Support BeaconMC and elevate your in-game experience with exclusive perks and commands.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ranks Content Section -->
+    <section class="subpage-container">
+
+      <!-- Rank Cumulative Notice -->
+      <div class="rank-notice-banner glass-panel reveal-on-scroll">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>Each higher rank includes all permissions and perks from the previous rank.</span>
+      </div>
+
+      <!-- 5 Ranks Grid -->
+      <div class="ranks-grid">
+        
+        <!-- Rank 1: VIP -->
+        <div class="rank-card glass-panel reveal-on-scroll reveal-delay-1">
+          <div class="rank-card-header">
+            <span class="rank-tag rank-tag--vip">TIER I</span>
+            <h3 class="rank-name">VIP</h3>
+            <div class="rank-price">₹49</div>
+            <p class="rank-desc">Upgrade your gameplay with exclusive perks and permissions!</p>
+          </div>
+          <div class="rank-card-body">
+            <ul class="perks-list">
+              <li><span class="perk-icon">🏷️</span> Custom Nickname</li>
+              <li><span class="perk-icon">🛠️</span> <code>/workbench</code></li>
+              <li><span class="perk-icon">🎁</span> Exclusive Kit every 2 days</li>
+            </ul>
+          </div>
+          <div class="rank-card-footer">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+              JOIN DISCORD TO BUY
+            </a>
+          </div>
+        </div>
+
+        <!-- Rank 2: ELITE -->
+        <div class="rank-card glass-panel reveal-on-scroll reveal-delay-2">
+          <div class="rank-card-header">
+            <span class="rank-tag rank-tag--elite">TIER II</span>
+            <h3 class="rank-name">ELITE</h3>
+            <div class="rank-price">₹99</div>
+            <p class="rank-desc">Includes all VIP permissions and perks.</p>
+          </div>
+          <div class="rank-card-body">
+            <ul class="perks-list">
+              <li class="perk-highlight"><span class="perk-icon">✅</span> All VIP</li>
+              <li><span class="perk-icon">📦</span> <code>/enderchest</code></li>
+              <li><span class="perk-icon">🎁</span> Exclusive Kit every 5 days</li>
+            </ul>
+          </div>
+          <div class="rank-card-footer">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+              JOIN DISCORD TO BUY
+            </a>
+          </div>
+        </div>
+
+        <!-- Rank 3: TITAN -->
+        <div class="rank-card glass-panel reveal-on-scroll reveal-delay-3">
+          <div class="rank-card-header">
+            <span class="rank-tag rank-tag--titan">TIER III</span>
+            <h3 class="rank-name">TITAN</h3>
+            <div class="rank-price">₹149</div>
+            <p class="rank-desc">Includes all ELITE permissions and perks.</p>
+          </div>
+          <div class="rank-card-body">
+            <ul class="perks-list">
+              <li class="perk-highlight"><span class="perk-icon">✅</span> All ELITE</li>
+              <li><span class="perk-icon">🍖</span> <code>/feed</code></li>
+              <li><span class="perk-icon">🎁</span> Exclusive Kit every 7 days</li>
+            </ul>
+          </div>
+          <div class="rank-card-footer">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+              JOIN DISCORD TO BUY
+            </a>
+          </div>
+        </div>
+
+        <!-- Rank 4: IMMORTAL -->
+        <div class="rank-card glass-panel reveal-on-scroll reveal-delay-4">
+          <div class="rank-card-header">
+            <span class="rank-tag rank-tag--immortal">TIER IV</span>
+            <h3 class="rank-name">IMMORTAL</h3>
+            <div class="rank-price">₹199</div>
+            <p class="rank-desc">Includes all TITAN permissions and perks.</p>
+          </div>
+          <div class="rank-card-body">
+            <ul class="perks-list">
+              <li class="perk-highlight"><span class="perk-icon">✅</span> All TITAN</li>
+              <li><span class="perk-icon">🕊️</span> <code>/fly</code></li>
+              <li><span class="perk-icon">🎁</span> Exclusive Kit one time</li>
+            </ul>
+          </div>
+          <div class="rank-card-footer">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block">
+              JOIN DISCORD TO BUY
+            </a>
+          </div>
+        </div>
+
+        <!-- Rank 5: DEVIL (Featured / Highest Paid Rank) -->
+        <div class="rank-card rank-card--featured glass-panel reveal-on-scroll reveal-delay-5">
+          <div class="rank-featured-badge">👑 Highest Paid Rank</div>
+          <div class="rank-card-header">
+            <span class="rank-tag rank-tag--devil">ULTIMATE</span>
+            <h3 class="rank-name text-devil">DEVIL</h3>
+            <div class="rank-price">₹249</div>
+            <p class="rank-desc">Includes all IMMORTAL permissions and perks.</p>
+          </div>
+          <div class="rank-card-body">
+            <ul class="perks-list">
+              <li class="perk-highlight"><span class="perk-icon">✅</span> All IMMORTAL</li>
+              <li><span class="perk-icon">🔧</span> <code>/repair</code></li>
+              <li><span class="perk-icon">🎁</span> Exclusive Kit one time</li>
+              <li class="perk-devil-special"><span class="perk-icon">👑</span> Highest Paid Rank</li>
+            </ul>
+          </div>
+          <div class="rank-card-footer">
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-block btn-featured-glow">
+              JOIN DISCORD TO BUY
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- How to Buy & Payment Information Grid -->
+      <div class="purchase-guidance-grid" style="margin-top: 50px;">
+        <div class="guidance-card glass-panel reveal-on-scroll">
+          <h3 class="guidance-title">HOW TO BUY</h3>
+          <div class="steps-flow">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h4 class="step-name">Choose a Rank</h4>
+                <p class="step-desc">Pick your desired rank from VIP, Elite, Titan, Immortal or Devil.</p>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h4 class="step-name">Join our Discord</h4>
+                <p class="step-desc">Connect to our Discord server via the global invite link.</p>
+                <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="link-discord-inline">
+                  Join Discord Server &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h4 class="step-name">Open a Buy Ranks Ticket</h4>
+                <p class="step-desc">Go to the ticket channel and create a "Buy Ranks" ticket. Our team will handle your order directly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Methods Information Only -->
+        <div class="guidance-card glass-panel reveal-on-scroll reveal-delay-2" style="display: flex; flex-direction: column; justify-content: center;">
+          <h3 class="guidance-title" style="margin-bottom: 8px;">ACCEPTED PAYMENT METHODS</h3>
+          <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 24px;">
+            Payment methods are accepted directly through our Discord support tickets. There is no web cart or automated checkout.
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;">
+            <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+              <span style="font-family: var(--font-heading); font-weight: 700; color: #ffffff;">UPI</span>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+              <span style="font-family: var(--font-heading); font-weight: 700; color: #ffffff;">PhonePe</span>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+              <span style="font-family: var(--font-heading); font-weight: 700; color: #ffffff;">Google Pay</span>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+              <span style="font-family: var(--font-heading); font-weight: 700; color: #ffffff;">Paytm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-header">
+            <img src="assets/logo.png" alt="BeaconMC Logo" class="brand-logo" width="36" height="36">
+            <span class="brand-text">Beacon<span class="brand-highlight">MC</span></span>
+          </div>
+          <p class="footer-server-ip font-mono">play.BeaconMC.space</p>
+          <p class="footer-tagline">Build. Explore. Belong.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-links-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="staff.html">Staff</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Community</h4>
+            <ul class="footer-links-list">
+              <li><a href="ranks.html">Paid Ranks</a></li>
+              <li><a href="rules.html">Rules</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="index.html#how-to-join">How to Join</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <h4 class="footer-col-title">Social</h4>
+            <a href="https://discord.gg/SKrMS7WA3" target="_blank" rel="noopener noreferrer" class="btn btn-discord btn-sm">
+              <svg class="icon-discord" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <span>JOIN DISCORD</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">© 2026 BeaconMC. All rights reserved.</p>
+        <p class="disclaimer-text">Minecraft is a trademark of Mojang Studios. BeaconMC is not affiliated with Mojang or Microsoft.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
